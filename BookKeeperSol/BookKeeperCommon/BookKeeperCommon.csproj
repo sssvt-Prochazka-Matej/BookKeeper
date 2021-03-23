@@ -51,10 +51,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BO\Invoice.cs" />
+    <Compile Include="BO\InvoiceItem.cs" />
     <Compile Include="BO\User.cs" />
     <Compile Include="MssqlContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repos\MssqlRepo.cs" />
+    <Compile Include="Repos\InvoiceRepo.cs" />
+    <Compile Include="Repos\InvoiceItemRepo.cs" />
+    <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

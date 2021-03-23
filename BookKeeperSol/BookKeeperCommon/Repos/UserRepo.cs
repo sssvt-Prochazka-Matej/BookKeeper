@@ -9,7 +9,7 @@ using System.Data.Entity;
 
 namespace BookKeeperCommon.Repos
 {
-    public class MssqlRepo
+    public class UserRepo
     {
         private MssqlContext context = new MssqlContext();
         
